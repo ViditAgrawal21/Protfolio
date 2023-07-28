@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidit-Protfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/af27da018b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#services">Services</a></li>
+                    <li><a href = "#protfolio">Protfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Vidit</span><br> Agrawal From Amravati </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/background.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>HI! I'm Vidit Agrawal, and I'm thrilled to have you visit my profile. Let me introduce myself and share a  little about who I am.
+
+                        
+                        I was born and raised in Amravati, where I developed a deep passion for Computers and Technology. Ever since I was young, I've been fascinated by different Games, and this curiosity has guided my journey towards becoming Software Enginieer.
+                        
+                        
+                        I pursued my education in EnTc at PCCOE. The knowledge and skills I acquired during my academic journey have laid a strong foundation for my career aspirations. 
+                        
+                        
+                        In both my personal and professional life, I believe in TEAM WORK. I'm a firm believer in continuous learning and growth, and I always seek opportunities to challenge myself and expand my horizons.
+                        
+                        
+                        I've created this portfolio/website to showcase my work, share my experiences, and connect with like-minded individuals and potential collaborators. I'm open to new opportunities, collaborations, and projects, so feel free to reach out to me if you'd like to connect or discuss anything further.
+                        
+                        
+                        Thank you for taking the time to get to know me better. I'm excited about the journey ahead, and I look forward to connecting with you and being part of meaningful conversations and projects.</p>
+
+                        <div-titles class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div-titles>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Cpp</span><br>DSA</li><br></li>
+                                <li><span>Web-Devlopment</span><br>Web app Development</li><br></li>
+                                <li><span>Android Devlopment</span><br>Building Android apps</li><br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021</span><br>GDSC CO-LEAD</li><br></li>
+                                <li><span>2020</span><br>PCCOE ICCUBEA</li><br></li>
+                                <li><span>2022</span><br>Internship at Maxgen Technology Pvt Ltd</li><br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - Current</span><br>Pursuing BE Degree In EnTc</li><br></li>
+                                <li><span>2018-2020</span><br>SSC</li><br></li>
+                                <li><span>2017-2018</span><br>HSC</li><br></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                 <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                   <p>
+                        Custom website design and development.
+                        Responsive and mobile-friendly design.
+                        
+                    </p>
+                    <a href="#">Learn More</a>
+                 </div>
+                 <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        UX design for intuitive and visually appealing apps.
+                        Wireframing and prototyping for early visualization and feedback.
+                    </p>
+                    <a href="#">Learn More</a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        User research and persona development.
+                        Wireframing and prototyping.
+                        
+                    </p>
+                    <a href="#">learn More</a>
+                 </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="protfolio">
+        <div class="container">
+            <h1 class= "sub-title">My Work</h1>
+            <div class="work-list">
+                   <div class="work">
+                    <img src="image/263984.png">
+                    <div class="layer">
+                        <h3>Web Scraping</h3>
+                        <p>Developed a web scraping program using Python and relevant
+                        libraries like BeautifulSoup</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                   </div>
+                   <div class="work">
+                    <img src="image/Screenshot_(4)-1599033207-106.png">
+                    <div class="layer">
+                        <h3>Writing Board Using OpenCV</h3>
+                        <p>Developed a writing board application using OpenCV and Python. Utilized
+                            OpenCV library functions to capture video frames from a webcam or camera</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                   </div>
+                   </div>
+                   <div class="work">
+                    <img src="image/music.jpg">
+                    <div class="layer">
+                        <h3>Music Recommendation Using ML</h3>
+                        <p>Developed a music recommendation system using machine learning
+                            techniques.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                   </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>agrawalvidit656@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9370100372</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/vidit-agrawal-604010223/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/vidit__agrawal/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/ViditAgrawal21"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/viditAgrawal11"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="image/Vidit New Resume.pdf" download class ="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <br>@Vidit.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+     
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxkcwc1JN6tC0aA1lY99W7u9rkPs-Pkwooj_joup8xerV3-yS54D1LsDyd3yh3SBbzdsA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
